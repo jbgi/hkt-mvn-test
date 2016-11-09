@@ -12,18 +12,7 @@
         <dependency>
             <groupId>org.derive4j.hkt</groupId>
             <artifactId>hkt</artifactId>
-            <version>0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.derive4j</groupId>
-            <artifactId>derive4j</artifactId>
-            <version>0.7</version>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.functionaljava</groupId>
-            <artifactId>functionaljava</artifactId>
-            <version>4.5</version>
+            <version>0.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -37,23 +26,6 @@
                     <source>1.8</source>
                     <target>1.8</target>
                     <showWarnings>true</showWarnings>
-                    <useIncrementalCompilation>true</useIncrementalCompilation>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.5.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <mainClass>fr.gn.hkt.TestFree</mainClass>
-                    <classpathScope>test</classpathScope>
                 </configuration>
             </plugin>
         </plugins>
